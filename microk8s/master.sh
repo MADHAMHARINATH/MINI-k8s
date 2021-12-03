@@ -1,5 +1,5 @@
 cd ./k8s
-echo "Installing MicroK8s with kubernetes version 1.20"
+echo "Installing MicroK8s with kubernetes version 1.21"
 sudo snap install microk8s --classic --channel=1.21/stable
 echo "Waiting to confirm installation"
 sudo microk8s status --wait-ready
