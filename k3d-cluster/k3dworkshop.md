@@ -5,9 +5,9 @@
 ---
 ## **Clone the repository**
 ```
-git clone https://github.com/DhamodharReddy/newrepo.git && ls -ltr
+git clone https://github.com/KaluvalaRamya/MINI-k8s.git
 ```
-## **Change directory & Create 3Node Cluster**
+## **Create 3Node Cluster**
 ```
-cd newrepo && sudo ./k3dscript.sh
+cd MINI-k8s/k3d-cluster/ && chmod 755 k3dscript.sh && sudo ./k3dscript.sh
 ```
