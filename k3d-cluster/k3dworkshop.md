@@ -7,11 +7,7 @@
 ```
 git clone https://github.com/DhamodharReddy/newrepo.git && ls -ltr
 ```
-## **Change directory**
+## **Change directory & Create 3Node Cluster**
 ```
-cd newrepo && ls -ltr
-```
-## **Creating 3Node cluster**
-```
-sudo ./k3dscript.sh
+cd newrepo && sudo ./k3dscript.sh
 ```
