@@ -18,7 +18,7 @@ echo "install rancher/k3d using curl"
 curl -s https://raw.githubusercontent.com/rancher/k3d/main/install.sh | TAG=v4.0.0 bash
 echo "installed k3d"
 sleep 5
-echo "Creating Multi-Server Clusters"
+echo "Creating Multi-Node Clusters"
 sudo k3d cluster create multinode --agents 2 --servers 1
 sleep 5
 echo "Showing the nodes which we have created"
